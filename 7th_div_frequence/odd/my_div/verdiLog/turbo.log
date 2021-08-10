@@ -1,0 +1,3 @@
+Command Line: /tools/Synopsys/verdi_2018.09/verdi/Verdi_O-2018.09-SP2/platform/LINUXAMD64/bin/Novas ./src/my_div.v ./src/tb_my_div.v -ssf tb_my_div.fsdb
+uname(Linux cym-Desktop 5.8.0-53-generic #60~20.04.1-Ubuntu SMP Thu May 6 09:52:46 UTC 2021 x86_64)
+au time 7689.573939 50.289966 76.232597 delta 629334016 629334016 total 1002856448 1002856448

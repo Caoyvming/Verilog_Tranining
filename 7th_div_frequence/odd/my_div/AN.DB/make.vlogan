@@ -1,0 +1,17 @@
+
+VLOGAN	= vlogan
+VLOGAN_OPT	= -l ./vcs_work/vlogan.log -full64 -full64
+
+all :		_VCSgd_Dt6K0d_1.db \
+	_VCSgd_BFfxie_1.db \
+
+
+
+_VCSgd_Dt6K0d_1.db :	./src/my_div.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/my_div.v
+
+
+_VCSgd_BFfxie_1.db :	./src/tb_my_div.v 
+		${VLOGAN}  ${VLOGAN_OPT} ./src/tb_my_div.v
+
+
