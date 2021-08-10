@@ -1,7 +1,7 @@
 TSCALE = -timescale="1ns/100ps"
-RTL= ./src/3_div.v
-TB = ./src/tb_3_div.v
-TOP = div3_tb
+RTL= ./src/my_div.v
+TB = ./src/tb_my_div.v
+TOP = tb_my_div
 DIR = ./vcs_work
 
 VLOGAN_OPTS = -full64 -l $(DIR)/vlogan.log -Mdir=$(DIR)
